@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             setOf(
                 R.id.navigation_home,
                 R.id.navigation_goals,
-                R.id.navigation_notifications,
+                R.id.navigation_spending,
                 R.id.navigation_settings
             )
         )

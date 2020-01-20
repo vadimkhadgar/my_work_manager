@@ -2,6 +2,6 @@
     <string name="app_name">ApplicationBig</string>
     <string name="title_home">Home</string>
     <string name="title_goals">Goals</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_spending">Spending</string>
     <string name="title_settings">Settings</string>
 </resources>

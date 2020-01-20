@@ -18,10 +18,10 @@
         tools:layout="@layout/fragment_goals" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.vadimbliashuk.applicationbig.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_spending"
+        android:name="com.vadimbliashuk.applicationbig.ui.spending.SpendingFragment"
+        android:label="@string/title_spending"
+        tools:layout="@layout/fragment_spending" />
 
     <fragment
         android:id="@+id/navigation_settings"
