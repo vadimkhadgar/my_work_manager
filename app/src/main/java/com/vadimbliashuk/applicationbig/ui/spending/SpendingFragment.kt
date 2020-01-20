@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import com.vadimbliashuk.applicationbig.R
+import com.vadimbliashuk.applicationbig.model.SpendingEntity
+import kotlinx.android.synthetic.main.fragment_spending.*
 
 class SpendingFragment : Fragment() {
 
@@ -25,5 +27,13 @@ class SpendingFragment : Fragment() {
 
         spendingViewModel =
             ViewModelProviders.of(this).get(SpendingViewModel::class.java)
+
+        fab_add_new_spending.setOnClickListener {
+            //TODO
+        }
+    }
+
+    private fun getSpending(description: String, quantity: Int): SpendingEntity {
+        return SpendingEntity(description, quantity)
     }
 }
