@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import com.vadimbliashuk.applicationbig.model.SpendingEntity
 
 class SpendingRepository(private val spendingDao: SpendingDao) {
-    val allSpending: LiveData<List<SpendingEntity>> = spendingDao.getAll()
+    val allSpending: LiveData<List<SpendingEntity>> = spendingDao.getAll() // get
 
     suspend fun insert(spending: SpendingEntity) {
         spendingDao.insert(spending)
